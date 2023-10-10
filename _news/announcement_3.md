@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-06-30 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I began my postdoctoral postion at Boise State University working with the [CIDSRSN](https://www.boisestate.edu/physics-cidsrsn/meet-the-team/)! :telescope:
