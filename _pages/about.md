@@ -2,25 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Postdoctoral Researcher at Boise State University.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Physics</p>
+    <p>Boise, ID 83706</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Rachel Huchmala, a postdoctoral researcher with Dr. Brian Jackson at Boise State University. I am a member of the [Short Period Planets Group](http://www.astrojack.com/research/superpig/), aka SuPerPiG. My research involves using differential photometry to study the transits of Super-Hot and Ultra-Hot Jupiter Exoplanets. I'm also a part of the Central Idaho Dark Sky STEM Network (CIDSRSN), where I mentor students and host star parties throughout the Treasure Valley.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I haven't always studied exoplanets though. My PhD work in in Quantum Chemistry, where I used Theoretical Spectroscopy to better understand the effects of hydrogen-bonding on the vibrational spectrum (near to mid-IR) of water. My interest in spectroscopy started when I was an undergraduate student and had the opportunity to work with data from the Mars Reconissance Orbiter to help in the chemical identification of perchlorate salts on Mars. After this project I was hooked on spectroscopy, space, and what we can learn about the universe from manipulating light. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
