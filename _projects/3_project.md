@@ -5,6 +5,7 @@ description: an investigation of the two-quanta transition
 img: assets/img/SB_ToC.png
 importance: 3
 category: PhD
+related_publications: huchmala_exploring_2022, yang_character_2022
 ---
 
 I committed the final year and a half of my PhD to investigating the Stretch-Bend transition of various Water Clusters. 
