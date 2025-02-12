@@ -2,10 +2,9 @@
 layout: page
 title: Telescopes for Teachers
 description: a NASA Science Activation Funded Telescope Lending Program
-img: assets/img/Tft_logo.png
+img: assets/img/TfT_logo.png
 importance: 2
 category: current
-giscus_comments: true
 ---
 
 <div class="row justify-content-sm-center">
