@@ -61,7 +61,27 @@ ninja.data = [{
           section: "News",},{id: "news-my-project-superpig-observing-grid-was-featured-on-the-nasa-citizen-science-page-sparkles",
           title: 'My project, SuPerPiG Observing Grid was featured on the NASA Citizen Science Page!...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-superpig",
+          title: 'SuPerPiG',
+          description: "Short Period Planet Group",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project/";
+            },},{id: "projects-telescopes-for-teachers",
+          title: 'Telescopes for Teachers',
+          description: "a NASA Science Activation Funded Telescope Lending Program",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
+            },},{id: "projects-stretch-bend-transition-of-water-clusters",
+          title: 'Stretch-Bend Transition of Water Clusters',
+          description: "an investigation of the two-quanta transition",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
