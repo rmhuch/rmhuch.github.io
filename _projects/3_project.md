@@ -1,81 +1,20 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Stretch-Bend Transition of Water Clusters
+description: an investigation of the two-quanta transition
+img: assets/img/SB_ToC.png
 importance: 3
-category: work
+category: PhD
+related_publications: huchmala_exploring_2022, yang_character_2022
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I committed the final year and a half of my PhD to investigating the Stretch-Bend transition of various Water Clusters. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+So what does that mean? 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+First, a water cluster is a small collection of water molecules in a specific arrangement. They can be either nuetral (all water molecules), positively charged (an extra hydrogen atom, usually in the form of H<sub>3</sub>O<sup>+</sup>), or negatively charged. In this project we looked at nuetral and positively charged water clusters. More specifically, the goal was to look at different hydrogen bonding environments. These environments are designated by their number of hydrogen-bond _donors_ (D) and _acceptors_ (A), some examples are shown below. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+{% include figure.html path="assets/img/Hbond_envs.png" title="example image" class="img-fluid rounded z-depth-1" %}
+Various hydrogen-bonding environments shown in a water dimer and water tetramer cage and three-one (left to right)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The so-called "Stretch-Bend Transition" is a vibrational signature that results from the _hydrogen-bound_ OH stretch and the HOH bend of the _**donor**_ water molecule. This transition is of interest because it is in the near-IR region (the transition is between 5000-5500 cm<sup>-1</sup>) and it's intensity pattern is unique. We showed that unlike for the OH stretch transition, the intensity of this two-quanta transition is **not** dependent on hydrogen-bond strength. This means that this feature has the potential to be used to understand the population of each of these types of hydrogen-bond arrangements in a sample. 
