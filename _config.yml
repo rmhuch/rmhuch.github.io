@@ -193,7 +193,6 @@ exclude:
   - readme_preview/
   - vendor
   # 2/11/25: Added to excludes, can add back and edit later
-  - _projects/
   - _pages/dropdown.md
   - _pages/blog.md
   - assests/jupyter/blog.ipynb
